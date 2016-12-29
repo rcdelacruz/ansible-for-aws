@@ -1,8 +1,8 @@
 ec2_keypair: "js-group"
-ec2_security_group: "AWS-Admin-Group"
+ec2_security_group: "sg-f753fc93"
 ec2_instance_type: "t2.micro"
 ec2_image: "ami-4dd6782e"
-ec2_subnet_ids: "[]"
+ec2_subnet_ids: ["subnet-bbf5f7cc", "subnet-bbf5f7cc"]
 ec2_region: "ap-southeast-1"
 ec2_tag_Name: "ansible"
 ec2_tag_Type: "testing"
