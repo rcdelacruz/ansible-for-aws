@@ -8,11 +8,11 @@
   tasks:  
     - name: EC2 provisioning with general purpose EBS volume 
       ec2:
-        region: "{{ region }}"  
-        key_name: yan-key-pair-apsydney  
+        region: "ap-southeast-1"  
+        key_name: stratpoint 
         instance_type: t2.micro  
         image: ami-dc361ebf      
-        group: sg_webserver_apsydney
+        group: AWS-Admin-Group
         volumes:
           - device_name: /dev/sda1
             device_type: gp2
